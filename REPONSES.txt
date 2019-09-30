@@ -1,0 +1,13 @@
+UR REHMAN
+
+la version Maven est 3.6
+
+groupId identifie le projet
+
+artifactId est le nom du jar sans la version
+
+le repertoire target contient des classes
+
+class path est un paramètre passé à une machine virtuelle Java qui définit le chemin d'accès au répertoire où se trouvent les classes et les packages Java afin qu'elle les exécute
+
+maven.compiler.target permet de spécifier la version des classes compilés à exécuter. Ici la valeur est 1.6 
