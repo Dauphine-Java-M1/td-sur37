@@ -35,4 +35,28 @@ public class PrimeCollectionTest
     {
         assertTrue( true );
     }
+    
+    /**
+     * Rigourous Test 0 :-)
+     */
+    public void test0IsPrime()
+    {
+        assertTrue( true );
+    }
+    
+    /**
+     * Rigourous Test 2 :-)
+     */
+    public void test2IsPrime()
+    {
+        assertTrue( true );
+    }
+    
+    /**
+     * Rigourous Test 9 :-)
+     */
+    public void test9isPrime()
+    {
+        assertTrue( true );
+    }
 }
