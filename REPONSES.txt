@@ -45,7 +45,7 @@ exo 1
 
 7. les afficher
 
-8. 
+8. chaque constructeur a une signature différente : le type et le nombre d'arguments sont différents. c'est cela qui permet au compilateur de savoir quel constructeur est appelé.
 
 
 
@@ -53,7 +53,7 @@ exo 2
  
 1. première égalité vrai mais la deuxième fausse. p1 et p3 font référence à 2 objets différents
 
-3.
+3. la comparaison est faite avec les références. la méthode appelée est equals
 
 
 
@@ -72,7 +72,7 @@ exo 4
 
 5. on ne peut pas translate un cercle. il faut modifier le centre du cercle
 
-6.
+6. pour déplacer un cercle, il faut créer un nouveau centre. cela évite qu'un autre cercle avec le meme centre soit déplacé.
 
 9. oui 
 
