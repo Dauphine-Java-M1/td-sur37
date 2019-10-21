@@ -13,3 +13,79 @@ class path est un paramètre passé à une machine virtuelle Java qui définit l
 maven.compiler.target permet de spécifier la version des classes compilés à exécuter. Ici la valeur est 1.6 
 
 ...
+
+
+
+td 0 bis
+
+5/ 
+impossible de pousser des références car la branche distante contient du travail qui n'est pas en local. ceci est du car un autre depo a été poussé. 
+
+
+6/ le fichier reste identique à avant l'opération pull. IL n'y a pas eu de pull car les modifications locales du fichier auraitr été écrasé. 
+
+
+
+
+td 1
+
+exo 1
+
+1. On affiche x et y du point.
+
+2. x et y sont privés donc TestPoint ne fonctionne pas. on peut passer les variables en protected. 
+
+3. Pour que les champs ne puisent pas etre modifier à l'extérieur de la classe
+
+4. oui, un accesseur permet d'avoir accès aux variables de la classe.
+
+5. la signature du constructeur a changé.
+
+6. cela fonctionne
+
+7. les afficher
+
+8. 
+
+
+
+exo 2
+ 
+1. première égalité vrai mais la deuxième fausse. p1 et p3 font référence à 2 objets différents
+
+3.
+
+
+
+exo 3
+
+2. on continue à ajouter des points. il faut compter les points ajoutés.
+
+5. rien est ajouté
+
+6. ils sont supprimés
+
+
+exo 4
+
+1. 2 signatures
+
+5. on ne peut pas translate un cercle. il faut modifier le centre du cercle
+
+6.
+
+9. oui 
+
+
+exo 5
+
+1. oui
+
+4. le rayon interne n'est pas affiché et la surface est du cercle.
+
+
+
+
+ 
+
+

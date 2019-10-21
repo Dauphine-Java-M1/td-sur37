@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Circle {
 
-	private Point centre;
-	private int rayon;
+	protected Point centre;
+	protected int rayon;
 	
 	public Circle(Point centre, int rayon) {
 		this.centre = centre;
@@ -28,10 +28,21 @@ public class Circle {
 			return false;
 		}
 	}
+	
+	public static boolean contains(Point p, Circle... cercles) {
+		for(Circle c:cercles) {
+			if(  c.contains(p) ) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
 
 	
 	public String toString() {
-		return "cercle de centre:" + centre + " rayon:" + rayon + " surface:" + surface() +"\n";
+		return "cercle de centre:" + centre + " rayon:" + rayon + " surface:" + surface() 
+		;
 	}
 	
 
@@ -42,8 +53,9 @@ public class Circle {
     	Circle c2=new Circle(p,2);
     	c2.translate(1,1);
     	System.out.println(c+" "+c2);
-    	Point p2=new Point(5,4);
+    	Point p2=new Point(3,4);
     	System.out.println(c.contains(p2));
+    	System.out.println(Circle.contains(p2, c, c2));    	
     }
 	
 }

@@ -8,8 +8,8 @@ import java.util.ArrayList;
  */
 public class Point{
 	
-	private int x;
-	private int y;
+	protected int x;
+	protected int y;
 	
 	public Point(int x, int y) {
 		this.x = x;
