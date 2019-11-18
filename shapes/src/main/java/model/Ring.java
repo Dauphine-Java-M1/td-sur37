@@ -1,8 +1,14 @@
-package fr.dauphine.ja.urrehmansania.shapes;
+package model;
+
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
+import view.Drawable;
+import view.DrawableCircle;
+import view.DrawableRing;
 
 public class Ring extends Circle{
 	
-
 	private int internRayon;
 	
 	public Ring(Point centre, int rayon, int internRayon) {
@@ -66,6 +72,10 @@ public class Ring extends Circle{
 		return false;
 	}
 	
+	public int getInternRayon() {
+		return internRayon;
+	}
+	
 	
 	public static void main( String[] args ) {
     	Point p=new Point(1,2);
@@ -76,6 +86,13 @@ public class Ring extends Circle{
     	System.out.println(r2.contains(p2));
     	System.out.println(Ring.contains(p2, r, r2));
 				
+	}
+	
+	@Override
+	public void draw(Graphics g) {
+		// TODO Auto-generated method stub
+		Drawable dc=new DrawableRing(this);
+		dc.paintComponent(g);
 	}
 	
 

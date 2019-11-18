@@ -1,8 +1,13 @@
-package fr.dauphine.ja.urrehmansania.shapes;
+package model;
 
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 import java.util.ArrayList;
 
-public class Circle {
+import view.Drawable;
+import view.DrawableCircle;
+
+public class Circle extends Shape {
 
 	protected Point centre;
 	protected int rayon;
@@ -45,6 +50,15 @@ public class Circle {
 		;
 	}
 	
+	
+	public int getRayon() {
+		return rayon;
+	}
+	
+	
+	public Point getCentre(){
+		return centre;
+	}
 
 	
     public static void main( String[] args ){
@@ -57,5 +71,12 @@ public class Circle {
     	System.out.println(c.contains(p2));
     	System.out.println(Circle.contains(p2, c, c2));    	
     }
+
+	@Override
+	public void draw(Graphics g2) {
+		// TODO Auto-generated method stub
+		Drawable dc=new DrawableCircle(this);
+		dc.paintComponent(g2);
+	}
 	
 }

@@ -1,9 +1,15 @@
-package fr.dauphine.ja.urrehmansania.shapes;
+package model;
 
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class LigneBrisee {
+import view.Drawable;
+import view.DrawableCircle;
+import view.DrawableLine;
+
+public class LigneBrisee extends Shape{
 	
 	private LinkedList<Point> lk;
 	
@@ -11,7 +17,7 @@ public class LigneBrisee {
 		lk = new LinkedList<Point>();
 	}
 	
-	private void add(Point p) {
+	public void add(Point p) {
 		lk.add(p);
 	}
 	
@@ -28,6 +34,10 @@ public class LigneBrisee {
 		}
 	}
 	
+	public LinkedList<Point> getPoints(){
+		return lk;
+	}
+	
 	
     public static void main( String[] args ){
 
@@ -42,5 +52,19 @@ public class LigneBrisee {
     	System.out.println(lb.contains(p1));
 
     }
+
+	@Override
+	public void draw(Graphics g2) {
+		// TODO Auto-generated method stub
+		Drawable dc=new DrawableLine(this);
+		dc.paintComponent(g2);
+		
+	}
+
+	@Override
+	public void translate(int x, int y) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

@@ -1,4 +1,4 @@
-package fr.dauphine.ja.urrehmansania.shapes;
+package model;
 
 import java.util.ArrayList;
 
@@ -14,6 +14,11 @@ public class Point{
 	public Point(int x, int y) {
 		this.x = x;
 		this.y = y;
+	}
+	
+	public Point(Point p) {
+		this.x = p.x;
+		this.y = p.y;
 	}
 	
 	public boolean isSameAs(Point p1, Point p2){
@@ -52,5 +57,6 @@ public class Point{
     	list.add(p1);
     	System.out.println(list.indexOf(p2));
     	System.out.println(list.indexOf(p3));
+    	System.out.println(p1.isSameAs(p1, p3));
     }
 }

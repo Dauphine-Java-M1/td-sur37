@@ -1,5 +1,4 @@
-package fr.dauphine.ja.urrehmansania.shapes;
-
+package model;
 
 /**
  * Hello world!
