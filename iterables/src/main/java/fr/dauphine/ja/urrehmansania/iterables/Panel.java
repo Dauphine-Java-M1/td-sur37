@@ -19,13 +19,7 @@ public class Panel{
 		
 		for(int i:panel2(1,5))
 			System.out.println(i); 
-		
-		
-		List<Integer> l = panel(3,6);
-		for(int i:l) {
-			System.out.println(i);
-		}
-		System.out.println(l.get(1)); 
+
 		
 	}
 
@@ -77,13 +71,6 @@ public class Panel{
 			
 	}
 	
-	private static List panel(final int i, final int j){
-		List<Integer> list = new AbstractList<>;
-		for (int a=i; a<j; a++) {
-			list.add(a);
-		}
-		return new list;
-	}
 
 
 }
