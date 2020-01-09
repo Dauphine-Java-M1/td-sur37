@@ -6,8 +6,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Fusion {
+	
 	private static <T> List<T> fusion(List<? extends T> l1, List<? extends T> l2) {
-		
 		List<T> listFusion = new LinkedList<T>();
 		Iterator<? extends T> it1 = l1.iterator();
 		Iterator<? extends T> it2 = l2.iterator();
