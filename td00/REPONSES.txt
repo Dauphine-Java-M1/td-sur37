@@ -1,0 +1,27 @@
+Ur Rehman Sania
+
+TD0
+
+exercice 1 
+4. La version de Maven istallée sur la machine est 3.6
+5. groupeId identifie le groupe à l'origine du projet. artifactId identifie l'artéfact du projet.
+6. Le répertoire target contient des fichiers compilés
+8. Le class path est un paramètre passé à une machine virtuelle Java qui définit le chemin d'accès au répertoire où se trouvent les classes et les packages Java afin qu'elle les exécute.
+11. maven.compiler.target permet de spécifier la version du compilateur Java à utiliser pour compiler les classes à exécuter. Ici la valeur est 1.6 
+
+exercice 2
+1. Il y a une erreur "aucun attribut manifest principal dans target/td00-1.0-SNAPSHOT.jar"
+
+exercice 3
+3. transformation en System.out.println() 
+4. transformation en toString()
+5. création de main()
+6. créer get() et set() pour toto
+7. permet de renommer toutes les occurrences de la classe et du champs toto
+
+
+TD0 bis
+
+exercice 1
+2. pom.xml et RESPONSES.TXT
+5. on voit la différence apporté

@@ -1,0 +1,30 @@
+Ur Rehman Sania
+
+TD1
+
+exercice 1 
+1. Cela fonctionne car les champs et main() sont dans la classe elle-même.
+2. x et y sont privés donc TestPoint ne fonctionne pas. Il faut utiliser get() et set().
+3. C'est pour éviter que quelqu'un en dehors de la classe les modifie.
+4. Un acceseur permet d'acceder à un attribur privée de la classe. On doit le faire ici.
+5. Le paramètre par défaut ne peut plus être utiliser.
+7. On peut créer une variable static.
+8. chaque constructeur a une signature différente : le type et le nombre d'arguments sont différents. c'est cela qui permet au compilateur de savoir quel constructeur est appelé. 
+
+exercice 2
+1. première égalité vrai mais la deuxième fausse. p1 et p3 font référence à 2 objets différents.
+3. L'index de p2 est 0 car même référence que p1. L'index de p3 est -1 car il n'a pas été trouvé dans la liste.
+
+exercice 3
+2. on continue à ajouter des points. il faut compter les points ajoutés.
+5. rien est ajouté
+6. ils ne sont plus utilisés.
+
+exercie 4
+1. 2 signatures
+5. on ne peut pas translate un cercle. il faut modifier le centre du cercle
+6. pour déplacer un cercle, il faut créer un nouveau centre. cela évite qu'un autre cercle avec le meme centre soit déplacé.
+9. oui 
+
+exercice 5
+1. oui

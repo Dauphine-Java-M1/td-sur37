@@ -1,0 +1,8 @@
+Ur Rehman Sania
+
+TD3
+
+exercice 1 
+3. On doit implémenter l'interface iterable.
+4. La classe AbstractList est utilisée pour implémenter une collection non modifiable. On doit implémenter get() et size() afin de creér la liste non modifiable.
+
